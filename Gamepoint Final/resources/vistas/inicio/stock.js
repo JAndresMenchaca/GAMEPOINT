@@ -1,0 +1,10 @@
+let stockProductos = [
+    {id: 1, nombre: "PS1 Controller", tipo: "Controles", cantidad: 1, desc: "Primer mando oficial de Sony PS, modelo ergonómico. No cuenta con vibración.", precio: 90, color: "N", img: './images/1.1.jpg', indiv: '../productos/producto1.html'},
+    {id: 2, nombre: "Nintendo Switch", tipo: "Consolas", cantidad: 1, desc: "Pantalla Multitáctil de 5.5 pulgadas. 32GB de memoria interna. CPU/GPU: Procesador NVIDIA Custom Tegra.", precio: 150, color: "N", img: './images/2.jpg', indiv: '../productos/producto2.html'},
+    {id: 3, nombre: "Mini Arcade Nintendo", tipo: "Consolas", cantidad: 1, desc: "Disfrute de mas de 350 juegos de Nintendo. Pantalla 3 pulgadas LCD a color.", precio: 70, color: "N", img: './images/3.jpg', indiv: '../productos/producto3.html'},
+    {id: 4, nombre: "Playstation PS2 Gray Controller", tipo: "Controles", cantidad: 1, desc: "Mando de Playstation 2 cableado, con 2 Joysticks.", precio: 40, color: "N", img: './images/4.jpg', indiv: '../productos/producto4.html'},
+    {id: 5, nombre: "Nintendo Controller", tipo: "Controles", cantidad: 1, desc: "Control para la Consola NES", precio: 40, color: "N", img: './images/5.jpg', indiv: '../productos/producto5.html'},
+    {id: 6, nombre: "Super Nintendo Entertainment System", tipo: "Consolas", cantidad: 1, desc: "Ricoh 5A22 CPU, 64 KB of SRAM para video data. Audio chip: 8-bit CPU, 16-bit DSP, 64 KB de SRAM.", precio: 250, color: "N", img: './images/6.jpg', indiv: '../productos/producto6.html'},
+    {id: 7, nombre: "PSP Go!", tipo: "Consolas", cantidad: 1, desc: "Memoria integrada de 16 GB, auricular inalámbrico. Pantalla LCD ultranítida de 3,8 pulgadas. Go versatile, Go digital, Go anywhere", precio: 120, color: "N", img: './images/7.jpg', indiv: '../productos/producto7.html'},
+    {id: 8, nombre: "Consola Clásica Portátil", tipo: "Consolas", cantidad: 1, desc: "Mini consola con diversas variaciones del juego tetris, que también incluye otros 9999 juegos para tu diversión.", precio: 80, color: "N", img: './images/8.jpg', indiv: '../productos/producto8.html'},
+]

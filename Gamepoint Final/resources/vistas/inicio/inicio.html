@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="../../scripts/css/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script defer src="stock.js"></script>
+    <script defer src="modal.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../../index.html"> <img src="../../images/1.png" width="50px" height="60px" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../inicio/inicio.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../galeria/galeria.html">Noticias</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               ¿Quién Eres?
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../iniciar_sesion/iniciar_sesion.html">Iniciar Sesión</a></li>
+                <li><a class="dropdown-item" href="../registrarse/registrarse.html">Registrarse</a></li>
+              </ul>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </li>
+          </ul>
+       </div>
+      </div>
+    </nav>
+    <header>
+      <h1 id="titulo" class="titulo">Carrito</h1>
+      <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
+  </header>
+
+    <main id="contenedor-productos">
+
+    </main>
+
+    <div class="modal-contenedor">
+      <div class="modal-carrito">
+          <h3>Carrito</h3>
+          <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+          <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+          <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
+          <button id="generar" class="boton-agregar">Generar código</button>
+      </div>
+  </div>
+  
+  <!--
+    <div class="row">
+        <div class= "col-12">
+          <img src="images/1.jpg" class="img-fluid"   alt="principal">  
+        </div>
+    </div>
+
+    <div class="row">
+        <div class= "col-3 ">
+          <a href="../productos/producto1.html">
+            <img src="images/1.1.jpg" width="310" height="318"/>
+          </a>    
+        </div>
+
+        <div class= "col-3 ">
+          <a href="../productos/producto2.html">
+            <img src="images/2.jpg" width="310" height="318"/>
+          </a>    
+        </div>
+
+        <div class= "col-3 ">
+          <a href="../productos/producto3.html">
+            <img src="images/3.jpg" width="310" height="318"/>
+          </a>    
+        </div>
+
+        <div class= "col-3 ">
+          <a href="../productos/producto4.html">
+            <img src="images/4.jpg" width="310" height="318"/>
+          </a>    
+        </div>
+    </div>
+
+    <div class="row">
+        <div class= "col-12">
+          <img src="images/4.1.png" class="img-fluid  mx-auto d-block" width="50px"  alt="principal">  
+        </div>
+    </div>
+
+    <center>
+      <div class="row">
+        <div class= "col-3 ">
+          <a href="../productos/producto8.html" >
+            <img src="images/8.jpg" width="310" height="318"/>
+          </a>    
+        </div>
+        <div class= "col-3 ">
+          <a href="../productos/producto6.html" >
+            <img src="images/6.jpg" width="310" height="318"/>
+          </a>    
+        </div>
+        <div class= "col-3 ">
+          <a href="../productos/producto7.html">
+            <img src="images/7.jpg" width="310" height="318"/>
+          </a>    
+        </div>
+        <div class= "col-3 ">
+          <a href="../productos/producto5.html">
+            <img src="images/5.jpg" width="310" height="318"/>
+          </a>    
+        </div>
+      </div>
+    </center>
+  -->
+
+	  <script type="text/javascript" src="../../scripts/js/bootstrap.js"> </script>	
+  </body>
+</html>
